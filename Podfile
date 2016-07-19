@@ -3,6 +3,6 @@ platform :ios, "8.0"
 inhibit_all_warnings!
 use_frameworks!
 target 'NNetworking' do
-pod 'AFNetworking', '~> 2.5.2'
+pod 'AFNetworking'
 pod 'JSONModel'
 end
