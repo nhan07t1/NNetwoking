@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0CAEC33D1D3E0CAD0001A05A"
+               BlueprintIdentifier = "0C1FF3E11D3E25320034BFCC"
                BuildableName = "NNetworking.framework"
                BlueprintName = "NNetworking"
                ReferencedContainer = "container:NNetworking.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0CAEC33D1D3E0CAD0001A05A"
+            BlueprintIdentifier = "0C1FF3E11D3E25320034BFCC"
             BuildableName = "NNetworking.framework"
             BlueprintName = "NNetworking"
             ReferencedContainer = "container:NNetworking.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0CAEC33D1D3E0CAD0001A05A"
+            BlueprintIdentifier = "0C1FF3E11D3E25320034BFCC"
             BuildableName = "NNetworking.framework"
             BlueprintName = "NNetworking"
             ReferencedContainer = "container:NNetworking.xcodeproj">
