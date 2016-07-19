@@ -9,8 +9,8 @@ Pod::Spec.new do |spec|
   spec.framework = 'UIKit'
   spec.framework = 'CoreLocation'
   spec.framework    = 'SystemConfiguration'
-  spec.dependency 'AFNetworking'
-  spec.dependency 'JSONModel'
+  spec.dependency 'AFNetworking', '~> 2.5.4'
+  spec.dependency 'JSONModel', '~> 1.2.0'
   spec.source_files = "NNetworking/**/*.{swift,h,m}"
   
 end
