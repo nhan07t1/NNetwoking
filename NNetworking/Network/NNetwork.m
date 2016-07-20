@@ -6,15 +6,15 @@
 //  Copyright © 2016 Nhan Nguyen. All rights reserved.
 //
 
-#import "NetworkUtils.h"
+#import "NNetwork.h"
 
-@implementation NetworkUtils
+@implementation NNetwork
 
 static int httpRequestType = REQUEST_TYPE_POST;
 static NSTimeInterval network_timeout = 30;
 static NSMutableDictionary *defaultHeader = nil;
 
-static NetworkUtils* sharedManager = nil;
+static NNetwork* sharedManager = nil;
 
 static NSMutableDictionary *aFHTTPRequestOperation;
 

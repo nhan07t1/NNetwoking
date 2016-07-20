@@ -9,10 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "Reachability.h"
 #import "Network.h"
-#import "NetworkUtils.h"
 @import AFNetworking;
 
-@interface NetworkUtils : Network
+@interface NNetwork : Network
 
 @property(nonatomic,strong) AFHTTPRequestOperationManager* oManager;
 

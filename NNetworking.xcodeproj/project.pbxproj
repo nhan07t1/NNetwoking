@@ -7,105 +7,106 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		082D2F13159700B16F573500 /* Pods_NNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3DED7FE6815044C12F239F /* Pods_NNetworking.framework */; };
-		0C1FF3E61D3E25320034BFCC /* NNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C1FF3E51D3E25320034BFCC /* NNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C8293A61D3E25BD00604276 /* Network.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C82939F1D3E25BD00604276 /* Network.h */; };
-		0C8293A71D3E25BD00604276 /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8293A01D3E25BD00604276 /* Network.m */; };
-		0C8293A81D3E25BD00604276 /* NetworkUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C8293A11D3E25BD00604276 /* NetworkUtils.h */; };
-		0C8293A91D3E25BD00604276 /* NetworkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8293A21D3E25BD00604276 /* NetworkUtils.m */; };
-		0C8293AA1D3E25BD00604276 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C8293A41D3E25BD00604276 /* Reachability.h */; };
-		0C8293AB1D3E25BD00604276 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8293A51D3E25BD00604276 /* Reachability.m */; };
+		0C105AD01D3FEC8000B8FA81 /* NNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C105ACF1D3FEC8000B8FA81 /* NNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C14DC861D3FF271003BB675 /* Network.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C14DC7F1D3FF271003BB675 /* Network.h */; };
+		0C14DC871D3FF271003BB675 /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C14DC801D3FF271003BB675 /* Network.m */; };
+		0C14DC881D3FF271003BB675 /* NNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C14DC811D3FF271003BB675 /* NNetwork.h */; };
+		0C14DC891D3FF271003BB675 /* NNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C14DC821D3FF271003BB675 /* NNetwork.m */; };
+		0C14DC8A1D3FF271003BB675 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C14DC841D3FF271003BB675 /* Reachability.h */; };
+		0C14DC8B1D3FF271003BB675 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C14DC851D3FF271003BB675 /* Reachability.m */; };
+		E3BF7DF6A6FE9AD37829A850 /* Pods_NNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DECD9D4A1F21BA915A6359 /* Pods_NNetworking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C1FF3E21D3E25320034BFCC /* NNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C1FF3E51D3E25320034BFCC /* NNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNetworking.h; sourceTree = "<group>"; };
-		0C1FF3E71D3E25320034BFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C82939F1D3E25BD00604276 /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
-		0C8293A01D3E25BD00604276 /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = "<group>"; };
-		0C8293A11D3E25BD00604276 /* NetworkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkUtils.h; sourceTree = "<group>"; };
-		0C8293A21D3E25BD00604276 /* NetworkUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkUtils.m; sourceTree = "<group>"; };
-		0C8293A41D3E25BD00604276 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		0C8293A51D3E25BD00604276 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		6A3DED7FE6815044C12F239F /* Pods_NNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9ED6D6F3431BDCE2240D3806 /* Pods-NNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNetworking/Pods-NNetworking.release.xcconfig"; sourceTree = "<group>"; };
-		CABDE83D55072CD9BFA79E49 /* Pods-NNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNetworking/Pods-NNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		0C105ACC1D3FEC8000B8FA81 /* NNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C105ACF1D3FEC8000B8FA81 /* NNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNetworking.h; sourceTree = "<group>"; };
+		0C105AD11D3FEC8000B8FA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C14DC7F1D3FF271003BB675 /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
+		0C14DC801D3FF271003BB675 /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = "<group>"; };
+		0C14DC811D3FF271003BB675 /* NNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNetwork.h; sourceTree = "<group>"; };
+		0C14DC821D3FF271003BB675 /* NNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNetwork.m; sourceTree = "<group>"; };
+		0C14DC841D3FF271003BB675 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		0C14DC851D3FF271003BB675 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A4CB996CADFA768D8799CBFB /* Pods-NNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNetworking/Pods-NNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		A4DECD9D4A1F21BA915A6359 /* Pods_NNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB126A63F859F61DB2105BED /* Pods-NNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNetworking/Pods-NNetworking.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C1FF3DE1D3E25320034BFCC /* Frameworks */ = {
+		0C105AC81D3FEC8000B8FA81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				082D2F13159700B16F573500 /* Pods_NNetworking.framework in Frameworks */,
+				E3BF7DF6A6FE9AD37829A850 /* Pods_NNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C1FF3D81D3E25320034BFCC = {
+		0C105AC21D3FEC8000B8FA81 = {
 			isa = PBXGroup;
 			children = (
-				0C1FF3E41D3E25320034BFCC /* NNetworking */,
-				0C1FF3E31D3E25320034BFCC /* Products */,
-				E891B51FBFA75ED1DA10EB20 /* Pods */,
-				913A67C2F566C93C21319E30 /* Frameworks */,
+				0C105ACE1D3FEC8000B8FA81 /* NNetworking */,
+				0C105ACD1D3FEC8000B8FA81 /* Products */,
+				E7525A538CA237AD1E109CF9 /* Pods */,
+				A457D9981D31E6BDD0230733 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		0C1FF3E31D3E25320034BFCC /* Products */ = {
+		0C105ACD1D3FEC8000B8FA81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C1FF3E21D3E25320034BFCC /* NNetworking.framework */,
+				0C105ACC1D3FEC8000B8FA81 /* NNetworking.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0C1FF3E41D3E25320034BFCC /* NNetworking */ = {
+		0C105ACE1D3FEC8000B8FA81 /* NNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				0C82939E1D3E25BD00604276 /* Network */,
-				0C8293A31D3E25BD00604276 /* Reachability */,
-				0C1FF3E51D3E25320034BFCC /* NNetworking.h */,
-				0C1FF3E71D3E25320034BFCC /* Info.plist */,
+				0C14DC7E1D3FF271003BB675 /* NNetworking */,
+				0C14DC831D3FF271003BB675 /* Reachability */,
+				0C105ACF1D3FEC8000B8FA81 /* NNetworking.h */,
+				0C105AD11D3FEC8000B8FA81 /* Info.plist */,
 			);
 			path = NNetworking;
 			sourceTree = "<group>";
 		};
-		0C82939E1D3E25BD00604276 /* Network */ = {
+		0C14DC7E1D3FF271003BB675 /* NNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				0C82939F1D3E25BD00604276 /* Network.h */,
-				0C8293A01D3E25BD00604276 /* Network.m */,
-				0C8293A11D3E25BD00604276 /* NetworkUtils.h */,
-				0C8293A21D3E25BD00604276 /* NetworkUtils.m */,
+				0C14DC7F1D3FF271003BB675 /* Network.h */,
+				0C14DC801D3FF271003BB675 /* Network.m */,
+				0C14DC811D3FF271003BB675 /* NNetwork.h */,
+				0C14DC821D3FF271003BB675 /* NNetwork.m */,
 			);
+			name = NNetworking;
 			path = Network;
 			sourceTree = "<group>";
 		};
-		0C8293A31D3E25BD00604276 /* Reachability */ = {
+		0C14DC831D3FF271003BB675 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				0C8293A41D3E25BD00604276 /* Reachability.h */,
-				0C8293A51D3E25BD00604276 /* Reachability.m */,
+				0C14DC841D3FF271003BB675 /* Reachability.h */,
+				0C14DC851D3FF271003BB675 /* Reachability.m */,
 			);
 			path = Reachability;
 			sourceTree = "<group>";
 		};
-		913A67C2F566C93C21319E30 /* Frameworks */ = {
+		A457D9981D31E6BDD0230733 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A3DED7FE6815044C12F239F /* Pods_NNetworking.framework */,
+				A4DECD9D4A1F21BA915A6359 /* Pods_NNetworking.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E891B51FBFA75ED1DA10EB20 /* Pods */ = {
+		E7525A538CA237AD1E109CF9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CABDE83D55072CD9BFA79E49 /* Pods-NNetworking.debug.xcconfig */,
-				9ED6D6F3431BDCE2240D3806 /* Pods-NNetworking.release.xcconfig */,
+				A4CB996CADFA768D8799CBFB /* Pods-NNetworking.debug.xcconfig */,
+				FB126A63F859F61DB2105BED /* Pods-NNetworking.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -113,30 +114,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C1FF3DF1D3E25320034BFCC /* Headers */ = {
+		0C105AC91D3FEC8000B8FA81 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C1FF3E61D3E25320034BFCC /* NNetworking.h in Headers */,
-				0C8293AA1D3E25BD00604276 /* Reachability.h in Headers */,
-				0C8293A81D3E25BD00604276 /* NetworkUtils.h in Headers */,
-				0C8293A61D3E25BD00604276 /* Network.h in Headers */,
+				0C14DC881D3FF271003BB675 /* NNetwork.h in Headers */,
+				0C14DC8A1D3FF271003BB675 /* Reachability.h in Headers */,
+				0C105AD01D3FEC8000B8FA81 /* NNetworking.h in Headers */,
+				0C14DC861D3FF271003BB675 /* Network.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0C1FF3E11D3E25320034BFCC /* NNetworking */ = {
+		0C105ACB1D3FEC8000B8FA81 /* NNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C1FF3EA1D3E25320034BFCC /* Build configuration list for PBXNativeTarget "NNetworking" */;
+			buildConfigurationList = 0C105AD41D3FEC8000B8FA81 /* Build configuration list for PBXNativeTarget "NNetworking" */;
 			buildPhases = (
-				FAEDF81BDEF7862032A73D01 /* [CP] Check Pods Manifest.lock */,
-				0C1FF3DD1D3E25320034BFCC /* Sources */,
-				0C1FF3DE1D3E25320034BFCC /* Frameworks */,
-				0C1FF3DF1D3E25320034BFCC /* Headers */,
-				0C1FF3E01D3E25320034BFCC /* Resources */,
-				F5BECEB437FA8D2C9A4F12F1 /* [CP] Copy Pods Resources */,
+				1BA3AB1ED5554DA9F91C0C97 /* [CP] Check Pods Manifest.lock */,
+				0C105AC71D3FEC8000B8FA81 /* Sources */,
+				0C105AC81D3FEC8000B8FA81 /* Frameworks */,
+				0C105AC91D3FEC8000B8FA81 /* Headers */,
+				0C105ACA1D3FEC8000B8FA81 /* Resources */,
+				95C10AD3AD1B8EAD4E2FFA3B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,42 +145,42 @@
 			);
 			name = NNetworking;
 			productName = NNetworking;
-			productReference = 0C1FF3E21D3E25320034BFCC /* NNetworking.framework */;
+			productReference = 0C105ACC1D3FEC8000B8FA81 /* NNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0C1FF3D91D3E25320034BFCC /* Project object */ = {
+		0C105AC31D3FEC8000B8FA81 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Nhan Nguyen";
 				TargetAttributes = {
-					0C1FF3E11D3E25320034BFCC = {
+					0C105ACB1D3FEC8000B8FA81 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 0C1FF3DC1D3E25320034BFCC /* Build configuration list for PBXProject "NNetworking" */;
+			buildConfigurationList = 0C105AC61D3FEC8000B8FA81 /* Build configuration list for PBXProject "NNetworking" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0C1FF3D81D3E25320034BFCC;
-			productRefGroup = 0C1FF3E31D3E25320034BFCC /* Products */;
+			mainGroup = 0C105AC21D3FEC8000B8FA81;
+			productRefGroup = 0C105ACD1D3FEC8000B8FA81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C1FF3E11D3E25320034BFCC /* NNetworking */,
+				0C105ACB1D3FEC8000B8FA81 /* NNetworking */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0C1FF3E01D3E25320034BFCC /* Resources */ = {
+		0C105ACA1D3FEC8000B8FA81 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,22 +190,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		F5BECEB437FA8D2C9A4F12F1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNetworking/Pods-NNetworking-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FAEDF81BDEF7862032A73D01 /* [CP] Check Pods Manifest.lock */ = {
+		1BA3AB1ED5554DA9F91C0C97 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -219,27 +205,41 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		95C10AD3AD1B8EAD4E2FFA3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNetworking/Pods-NNetworking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0C1FF3DD1D3E25320034BFCC /* Sources */ = {
+		0C105AC71D3FEC8000B8FA81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C8293A91D3E25BD00604276 /* NetworkUtils.m in Sources */,
-				0C8293AB1D3E25BD00604276 /* Reachability.m in Sources */,
-				0C8293A71D3E25BD00604276 /* Network.m in Sources */,
+				0C14DC891D3FF271003BB675 /* NNetwork.m in Sources */,
+				0C14DC8B1D3FF271003BB675 /* Reachability.m in Sources */,
+				0C14DC871D3FF271003BB675 /* Network.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0C1FF3E81D3E25320034BFCC /* Debug */ = {
+		0C105AD21D3FEC8000B8FA81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -284,11 +284,10 @@
 			};
 			name = Debug;
 		};
-		0C1FF3E91D3E25320034BFCC /* Release */ = {
+		0C105AD31D3FEC8000B8FA81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -327,11 +326,10 @@
 			};
 			name = Release;
 		};
-		0C1FF3EB1D3E25320034BFCC /* Debug */ = {
+		0C105AD51D3FEC8000B8FA81 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CABDE83D55072CD9BFA79E49 /* Pods-NNetworking.debug.xcconfig */;
+			baseConfigurationReference = A4CB996CADFA768D8799CBFB /* Pods-NNetworking.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -345,11 +343,10 @@
 			};
 			name = Debug;
 		};
-		0C1FF3EC1D3E25320034BFCC /* Release */ = {
+		0C105AD61D3FEC8000B8FA81 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9ED6D6F3431BDCE2240D3806 /* Pods-NNetworking.release.xcconfig */;
+			baseConfigurationReference = FB126A63F859F61DB2105BED /* Pods-NNetworking.release.xcconfig */;
 			buildSettings = {
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -366,25 +363,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C1FF3DC1D3E25320034BFCC /* Build configuration list for PBXProject "NNetworking" */ = {
+		0C105AC61D3FEC8000B8FA81 /* Build configuration list for PBXProject "NNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C1FF3E81D3E25320034BFCC /* Debug */,
-				0C1FF3E91D3E25320034BFCC /* Release */,
+				0C105AD21D3FEC8000B8FA81 /* Debug */,
+				0C105AD31D3FEC8000B8FA81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C1FF3EA1D3E25320034BFCC /* Build configuration list for PBXNativeTarget "NNetworking" */ = {
+		0C105AD41D3FEC8000B8FA81 /* Build configuration list for PBXNativeTarget "NNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C1FF3EB1D3E25320034BFCC /* Debug */,
-				0C1FF3EC1D3E25320034BFCC /* Release */,
+				0C105AD51D3FEC8000B8FA81 /* Debug */,
+				0C105AD61D3FEC8000B8FA81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0C1FF3D91D3E25320034BFCC /* Project object */;
+	rootObject = 0C105AC31D3FEC8000B8FA81 /* Project object */;
 }
