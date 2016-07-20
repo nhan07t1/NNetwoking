@@ -4,11 +4,11 @@ Pod::Spec.new do |spec|
   spec.name         = 'NNetworking'
   spec.requires_arc    = true
   spec.version         = '1.0'
-  spec.license      = { :type => 'BSD' }
+  spec.license      = 'MIT'
   spec.homepage     = 'https://github.com/nhan07t1/NNetwoking'
   spec.authors      = { 'NhanNguyen' => 'ngocnhan07t1@gmail.com' }
   spec.summary      = 'NNetworking is network manage'
-  spec.source       = { :git => 'https://github.com/nhan07t1/NNetwoking.git', :tag => "#{spec.version}" }
+  spec.source       = { :git => 'https://github.com/nhan07t1/NNetwoking.git', :tag => spec.version }
   spec.framework = 'UIKit'
   spec.framework = 'CoreLocation'
   spec.framework    = 'SystemConfiguration'
