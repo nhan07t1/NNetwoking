@@ -8,13 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import "Reachability.h"
-#import "AFNetworking.h"
+//#import "AFNetworking.h"
 #import "Network.h"
 #import "NetworkUtils.h"
-#import "JSONModel.h"
-#import "Reachability.h"
-#import "AFNetworking.h"
-#import "UIKit+AFNetworking.h"
+//#import "JSONModel.h"
+//#import "UIKit+AFNetworking.h"
+@import AFNetworking;
 
 @interface NetworkUtils : Network
 
