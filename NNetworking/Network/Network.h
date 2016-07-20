@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "Reachability.h"
-//#import "AFNetworking.h"
 @import AFNetworking;
 #define REQUEST_TYPE_GET 1
 #define REQUEST_TYPE_HEAD 3
